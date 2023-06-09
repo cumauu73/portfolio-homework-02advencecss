@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: rgb(215, 215, 215);
+  
+}
+
+
+.logo a {
+  color: black;
+  text-decoration: none;
+}
+.logo img {
+  border-radius: 65px;
+  width: 130px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  background-color: #f8a2ec;
+}
+header .logo {
+  border: 2px solid yellow;
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+header nav {
+  border: 3px solid red;
+  display: inline-block;
+}
+
+.footer {
+  text-align: center;
+}
