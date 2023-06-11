@@ -28,6 +28,9 @@ nav a {
 
 header {
   background-color: #f8a2ec;
+  display: flex;
+  flex-direction: row;
+
 }
 header .logo {
   border: 2px solid yellow;
@@ -37,9 +40,19 @@ header .logo {
 }
 header nav {
   border: 3px solid red;
-  display: inline-block;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer {
   text-align: center;
+}
+.aboutme-myworks {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
 }
