@@ -20,6 +20,9 @@ body {
   width: 130px;
 }
 
+nav:hover {
+  background-color: yellow;
+}
 nav {
   margin-right: 50px;
 }
